@@ -46,7 +46,7 @@ nav .input-search-pokemon {
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
+    gap: 10px;
 }
 
 .card-pokemon {
@@ -67,6 +67,7 @@ nav .input-search-pokemon {
     width: 100%;
     height: 50px;
     padding: 10px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,5 +80,5 @@ nav .input-search-pokemon {
 .card-pokemon .type-pokemon {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
